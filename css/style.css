@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Quicksand|Varela+Round');
+
+/* compartilhados */
+body {
+    background: #FAFAFA;
+    font-family: 'Quicksand', cursive;
+    margin: 0;
+    padding: 0;
+}
+.col {
+    padding-top: 5px;
+}
+.col-2 {
+    height: 100%;
+}
+#main img {
+    width: 100%;
+}
+#main video {
+    width: 100%;
+}
+/* header */
+.navbar {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    text-decoration: none;
+    border: 1px solid #ECEFF1;
+}
+.navbar img{
+    max-width: 30%;
+}
+.navbar form input {
+    width: 120px;
+}
+.menunavbar {
+     background-color: #333;
+    overflow: hidden;
+}
+.menunavbar a, .menunavbar form {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* main */
+#propaganda .prop:first-child{
+    background: url('../img/alunos-ead.png') center center no-repeat;
+    background-size: 100% auto;
+    opacity: 0.9;
+  }
+}
+#propaganda {
+    display: table;
+    font-size: 1.6em;
+}
+#propaganda .prop {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    text-shadow: 1px 1px #333;
+}
+#main section, #main article {    
+    border: 1px solid #ECEFF1;
+    text-align: center;
+    background: #fff;
+}
+.descricao {
+    margin-left: 10px;
+    width: 98%;
+    background: linear-gradient(90deg, #B71C1C -40%, #FAFAFA 80%);
+}
+.descricao h2 {
+    border-left: 6px solid #B71C1C;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    padding-top: 0.4rem;
+    font-size: 1.8em;
+    color: #FFEBEE;
+}
+.artdeco:hover {
+    -webkit-box-shadow: 13px 14px 6px -11px rgba(0,0,0,0.56);
+        -moz-box-shadow: 13px 14px 6px -11px rgba(0,0,0,0.56);
+            box-shadow: 13px 14px 6px -11px rgba(0,0,0,0.56);
+}
+.artdeco a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1em;
+}
+.artdeco a:hover {
+    color: #33691E;
+}
+/* footer */
+footer {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 1px solid #ECEFF1;
+    margin-top: 5px;
+    font-size: 2.9em;
+    text-align: center;
+    height: 4rem;
+    letter-spacing: 7px;
+}
+footer a {
+    color: #33691e;
+}
+footer a:hover {
+    color: #eeb4b4;
+}
+/* MQ */
+
+@media (max-width:800px){
+    #propaganda {
+        font-size: 1.1em;
+    }    
+}
+
+
+
